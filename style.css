@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Arial', sans-serif;
+    font-size: 1.25rem;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 2px;    
+}
+
+.centered-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 20px 75px; /* Top/Bottom, Left/Right */
+    gap: 20px;
+}
+/* --------------------------------------------------- */
+.section-1{
+    width: 100vw;
+    height: 80vh;
+    /* border: 1px solid red; */
+}
+
+.profile-pic {
+    display: block;
+    min-width: 300px;
+    overflow: hidden;
+}
+/* --------------------------------------------------- */
+
+.section-2{
+    width: 100vw;
+    height: 50vh;
+}
+
+.lista-webs{
+    list-style: none;
+    border: 1px solid red;
+
+    a{
+        text-decoration: none;
+        border: 1px solid orange;
+        display: block; /* Hace que el enlace ocupe todo el espacio del li */
+    }
+}
+/* --------------------------------------------------- */
+.section-3{
+    width: 100vw;
+    height: 50vh;
+}
