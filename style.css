@@ -1,8 +1,13 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    /* Cuando navego a un link, te lleva varios pixeles mas arriba
+    Asi no tapa el contenido la navbar sticky */
+    scroll-padding-top: 40px;
 }
 
 body {
@@ -12,10 +17,51 @@ body {
     line-height: 1.6;
 }
 
-main {
-    padding: 20px;
+section{
     max-width: 1200px;
+    padding: 20px;
     margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #666;
+    padding: 5px 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+
+        &:hover {
+            color: #4ca1af;
+            transform: translateY(-2px);
+        }
+    }
+
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
 }
 
 h1 {
@@ -76,6 +122,7 @@ h1 {
 
 table {
     width: 80%;
+    max-width: 800px;
     margin-top: 20px;
     border-collapse: collapse;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
