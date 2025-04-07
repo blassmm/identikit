@@ -7,7 +7,7 @@
 html{
     /* Cuando navego a un link, te lleva varios pixeles mas arriba
     Asi no tapa el contenido la navbar sticky */
-    scroll-padding-top: 40px;
+    scroll-padding-top: 60px;
 }
 
 body {
@@ -17,10 +17,37 @@ body {
     line-height: 1.6;
 }
 
+main{
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+}
+
+aside{
+    background-color: grey;
+    display: inline-block;
+    width: 30%;
+}
+
+.section-1{
+    height: 100vh;
+    width: 70%;
+    background-color: #fff;
+    border: solid 1px black;
+}
+
 section{
     max-width: 1200px;
     padding: 20px;
     margin: 0 auto;
+}
+
+.container-main{
+    padding: 2rem;
+    border: 2px solid black;
+    width: 100%;
 }
 
 nav{
@@ -101,6 +128,9 @@ h1 {
 }
 
 .lista-webs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     padding: 0;
 }
@@ -168,4 +198,15 @@ td:hover {
     .lista-webs a {
         font-size: 1rem;
     }
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100px;
+    z-index: 9999;
+    background-color: #666;
+    padding: 5px 20px;
 }

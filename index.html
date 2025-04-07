@@ -1,295 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IdentiKit Blas</title>
-    <link rel="stylesheet" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
-    <!-- Font Roboto -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main>
-      <nav>
-        <ul>
-          <li><a href="#link1">Inicio</a></li>
-          <li><a href="#link2">Webs de interes</a></li>
-          <li><a href="#link3">Tabla</a></li>          
-          <li><a href="#link4">Lorem</a></li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IdentiKit Blas</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Font Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#link1">Inicio</a></li>
+      <li><a href="#link2">Webs de interes</a></li>
+      <li><a href="#link3">Tabla</a></li>
+      <li><a href="#link4">Juego</a></li>
+    </ul>
+  </nav>
+  <main>
+    <!-- Contiene section 1 y aside bar -->
+    <div class="wrapper">
+      <aside>
+        sss
+      </aside>
       <section id="link1" class="centered-section section-1">
-        <h1 class="text-3xl font-bold underline">Blas Montanari</h1>
-        <p>
-          Me llama la atencion el desarrollo de front ends creativos, que se
-          destaquen visualmente
-        </p>
-        <img
-          class="profile-pic"
-          src="./resources/profilepic.png"
-          alt="blas-pic"
-        />
+        <div class="container-main">
+          <h1>Blas Montanari</h1>
+          <p>
+            Me llama la atencion el desarrollo de front ends creativos, que se
+            destaquen visualmente
+          </p>
+          <img class="profile-pic" src="./resources/profilepic.png" alt="blas-pic" />
+        </div>
       </section>
-      <section id="link2" class="centered-section section-2">
+    </div>
+    <!-- --------------- -->
+    <section id="link2" class="centered-section section-2">
+      <div class="container-main">
         <h1>Webs de interes</h1>
         <ul class="lista-webs">
           <li>
-            <a
-              href="https://the8project.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              >the8project.com</a
-            >
+            <a href="https://the8project.com" target="_blank" rel="noopener noreferrer">the8project.com</a>
           </li>
           <li>
-            <a
-              href="https://www.altermind.studio"
-              target="_blank"
-              rel="noopener noreferrer"
-              >altermind.studio</a
-            >
+            <a href="https://www.altermind.studio" target="_blank" rel="noopener noreferrer">altermind.studio</a>
           </li>
           <li>
-            <a
-              href="https://www.superevilgeniuscorp.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              >superevilgeniuscorp.com</a
-            >
+            <a href="https://www.superevilgeniuscorp.com" target="_blank"
+              rel="noopener noreferrer">superevilgeniuscorp.com</a>
           </li>
         </ul>
-      </section>
-      <section style="height: 100vh;">
-        Genero espaciado
-      </section>
-      <section id="link3" class="centered-section section-3">
-        <table border="black">
-          <tr>
-            <td colspan="13" style="text-align: center">PACMAN</td>
-          </tr>
-          <!-- Uso 14 rows inicialmente en total -->
-          <!-- img de referencia = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9m1f3c4sSxmhLC5VnjWQ3oDVBIy6nwIu_1w&s -->
-          <tr class="row-1">
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-          </tr>
-          <tr class="row-2">
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-          </tr>
-          <tr class="row-3">
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-          </tr>
-          <tr class="row-4">
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-          </tr>
-          <tr class="row-5">
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-          </tr>
-          <tr class="row-1">
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color3"></td>
-            <td class="color3"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color3"></td>
-            <td class="color3"></td>
-            <td class="color2"></td>
-          </tr>
-          <tr class="row-6">
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color3"></td>
-            <td class="color3"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color3"></td>
-            <td class="color3"></td>
-            <td class="color2"></td>
-          </tr>
-          <tr class="row-8">
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-          </tr>
-          <tr class="row-6">
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-          </tr>
-          <tr class="row-6">
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-          </tr>
-          <tr class="row-6">
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-          </tr>
-          <tr class="row-6">
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-          </tr>
-          <tr class="row-6">
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-          </tr>
-          <tr class="row-6">
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color1"></td>
-            <td class="color2"></td>
-          </tr>
-        </table>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+    <section style="height: 100vh;">
+      Genero espaciado
+    </section>
+    <section id="link3" class="centered-section section-3">
+      <table border="black">
+        <tr>
+          <td colspan="13" style="text-align: center">PACMAN</td>
+        </tr>
+        <!-- Uso 14 rows inicialmente en total -->
+        <!-- img de referencia = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9m1f3c4sSxmhLC5VnjWQ3oDVBIy6nwIu_1w&s -->
+        <tr class="row-1">
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+        </tr>
+        <tr class="row-2">
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+        </tr>
+        <tr class="row-3">
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+        </tr>
+        <tr class="row-4">
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+        </tr>
+        <tr class="row-5">
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+        </tr>
+        <tr class="row-1">
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color3"></td>
+          <td class="color3"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color3"></td>
+          <td class="color3"></td>
+          <td class="color2"></td>
+        </tr>
+        <tr class="row-6">
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color3"></td>
+          <td class="color3"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color3"></td>
+          <td class="color3"></td>
+          <td class="color2"></td>
+        </tr>
+        <tr class="row-8">
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+        </tr>
+        <tr class="row-6">
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+        </tr>
+        <tr class="row-6">
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+        </tr>
+        <tr class="row-6">
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+        </tr>
+        <tr class="row-6">
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+        </tr>
+        <tr class="row-6">
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+        </tr>
+        <tr class="row-6">
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color1"></td>
+          <td class="color2"></td>
+        </tr>
+      </table>
+    </section>
+  </main>
+  <footer>
+    Footer
+  </footer>
+</body>
+
 </html>
